@@ -9,7 +9,7 @@ Kitten Scientists (KS) is a simple automation script for the complex [Kittens Ga
 Create the following JavaScript bookmarklet (create a new bookmark and paste this as the URL):
 
 ```js
-javascript:(function(){var d=document,s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/cameroncondry/cbc-kitten-scientists@master/kitten-scientists.user.js';d.body.appendChild(s);})();
+javascript:(function(){var d=document,s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gulbanana/cbc-kitten-scientists@latest/kitten-scientists.user.js';d.body.appendChild(s);})();
 ```
 
 ### Manual Installation
