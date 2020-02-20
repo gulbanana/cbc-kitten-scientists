@@ -2190,15 +2190,11 @@ var run = function() {
     var defaultSelector = 'body[data-ks-style]:not(.scheme_sleek)';
 
     addRule(defaultSelector + ' #game {'
-        + 'font-family: monospace;'
-        + 'font-size: 12px;'
         + 'min-width: 1300px;'
         + 'top: 32px;'
         + '}');
 
     addRule(defaultSelector + ' {'
-        + 'font-family: monospace;'
-        + 'font-size: 12px;'
         + '}');
 
     addRule(defaultSelector + ' .column {'
@@ -2242,8 +2238,6 @@ var run = function() {
 
     addRule(defaultSelector + ' #game .btn {'
         + 'border-radius: 0px;'
-        + 'font-family: monospace;'
-        + 'font-size: 12px !important;'
         + 'margin: 0 5px 7px 0;'
         + 'width: 290px;'
         + '}');
